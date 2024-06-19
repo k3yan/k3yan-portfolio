@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        vollkorn: ['Vollkorn', 'serif'],
+        dancingScript: ['Dancing Script','cursive'],
+      },
+    },
   },
   plugins: [],
 }
